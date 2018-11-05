@@ -70,8 +70,33 @@ public class Solution {
      * @param head head
      * @return ListNode
      */
-    public ListNode swapPairs(ListNode head) {
-        return null;
+    public static ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode temp = head.next;
+        head.next = temp.next;
+        temp.next = head;
+        head.next = swapPairs(head.next);
+        return temp;
+    }
+
+    public static boolean hasCycle(ListNode head) {
+
+        if (head == null || head.next == null) {
+            return false;
+        }
+        ListNode slow = head;
+        ListNode fast = head.next;
+
+        while (slow != fast) {
+            if (fast == null || fast.next == null) {
+                return false;
+            }
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return true;
     }
 
     public static void main(String[] args) {
@@ -85,15 +110,19 @@ public class Solution {
         node3.setNext(node4);
         node4.setNext(node5);
 
+//        System.out.println(hasCycle(node1));
+        System.out.println("原始:");
         printNode(node1);
-        reverseList_digui(node1);
-        printNode(node5);
+        swapPairs(node1);
+        System.out.println("排序后");
+        printNode(node2);
     }
 
     private static void printNode(ListNode head) {
         while (Objects.nonNull(head)) {
-            System.out.println(head.val);
+            System.out.print(head.val);
             head = head.getNext();
         }
+        System.out.println("");
     }
 }
