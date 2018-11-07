@@ -99,6 +99,32 @@ public class Solution {
         return true;
     }
 
+    public static ListNode detectCycle(ListNode head) {
+        if( head == null || head.next == null ){
+            return null;
+        }
+        ListNode fast = head;
+        ListNode slow = head;
+        while( fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if( fast == slow ){  //说明有环
+                break;
+            }
+        }
+        if( fast == null || fast.next == null ){
+            return null;
+        }
+
+        slow = head;
+        while( fast != slow ){
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return slow;
+    }
+
     public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
