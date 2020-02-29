@@ -2,10 +2,7 @@ package com.luo.java.synchronize;
 
 public class SynchronizedDemo {
 
-    private Object lock;
-
     public SynchronizedDemo(Object lock) {
-        this.lock = lock;
     }
 
     public static int x=0;
@@ -14,8 +11,7 @@ public class SynchronizedDemo {
 
     }
 
-    public void demo1(){
-        int a = 0;
+    public void demo1() {
     }
 
     public void demo3(){
