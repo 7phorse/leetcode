@@ -1,0 +1,56 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NoVisibility<leetcode_12720e6e>",
+            "request": "launch",
+            "mainClass": "com.luo.concurrency.NoVisibility",
+            "projectName": "leetcode_12720e6e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynchronizedDemo<leetcode_12720e6e>",
+            "request": "launch",
+            "mainClass": "com.luo.java.synchronize.SynchronizedDemo",
+            "projectName": "leetcode_12720e6e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AddTwoNumbers<leetcode_12720e6e>",
+            "request": "launch",
+            "mainClass": "com.luo.leetcode.AddTwoNumbers",
+            "projectName": "leetcode_12720e6e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution<leetcode_12720e6e>",
+            "request": "launch",
+            "mainClass": "com.luo.leetcode.Solution",
+            "projectName": "leetcode_12720e6e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoSum<leetcode_12720e6e>",
+            "request": "launch",
+            "mainClass": "com.luo.leetcode.TwoSum",
+            "projectName": "leetcode_12720e6e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestMain<leetcode_12720e6e>",
+            "request": "launch",
+            "mainClass": "com.luo.test.TestMain",
+            "projectName": "leetcode_12720e6e"
+        }
+    ]
+}
