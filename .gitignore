@@ -4,6 +4,7 @@
 /.mvn/
 /target/
 /workspace.iml
+/.idea/workspace.xml
 /mvnw.cmd
 /mvnw
 /log/
