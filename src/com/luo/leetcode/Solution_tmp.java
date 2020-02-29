@@ -10,7 +10,7 @@ import java.util.Objects;
  * @Auther: luo
  * @Date: 2018/11/3 11:40
  */
-public class Solution {
+public class Solution_tmp {
 
     /**
      * 反转一个单链表。
