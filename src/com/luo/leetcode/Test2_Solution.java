@@ -16,7 +16,7 @@ import java.util.Map;
 
  return [0, 1].
  */
-public class Test2_TwoSum {
+public class Test2_Solution {
 
     public static  int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];

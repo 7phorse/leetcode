@@ -2,7 +2,7 @@ package com.luo.leetcode;
 
 import com.luo.leetcode.data.ListNode;
 
-public class Test1_AddTwoNumbers {
+public class Test1_Solution {
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode prev = new ListNode(0);
