@@ -22,14 +22,14 @@ import java.util.Queue;
  * <p>
  * 使用两个队列，保持只有一个队列是有数据，做一个交换。
  */
-public class Test_225_MyStack {
+public class Test225_MyStack {
     private Queue<Integer> queue1;
     private Queue<Integer> queue2;
 
     /**
      * Initialize your data structure here.
      */
-    public Test_225_MyStack() {
+    public Test225_MyStack() {
         queue1 = new LinkedList<>();
         queue2 = new LinkedList<>();
     }
@@ -72,7 +72,7 @@ public class Test_225_MyStack {
     }
 
     public static void main(String[] args) {
-        Test_225_MyStack qs = new Test_225_MyStack();
+        Test225_MyStack qs = new Test225_MyStack();
         qs.push(2);
         qs.push(4);
         qs.push(7);
