@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d10dcf6e-f6eb-46d9-bc02-150378a17a38" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test9_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test13_Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,12 +64,12 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="21" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="22" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -77,12 +77,12 @@
         <counts>
           <entry key="dummy" value="39" />
           <entry key="gitignore" value="11" />
-          <entry key="java" value="3740" />
+          <entry key="java" value="4070" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3740" />
+          <entry key="JAVA" value="4070" />
           <entry key="PLAIN_TEXT" value="50" />
         </counts>
       </usages-collector>
@@ -164,11 +164,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test9_Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+            <state relative-caret-position="45">
+              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test13_Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/data/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test206_Solution.java" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test9_Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test13_Solution.java" />
       </list>
     </option>
   </component>
@@ -222,9 +235,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1792" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1792" />
+    <option name="height" value="1120" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -299,7 +311,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583151533721" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583159708529" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -323,7 +335,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test9_Solution">
+  <component name="RunManager" selected="Application.Test13_Solution">
+    <configuration name="Test13_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test13_Solution" />
+      <module name="workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luo.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test206_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test206_Solution" />
       <module name="workspace" />
@@ -339,19 +364,6 @@
     </configuration>
     <configuration name="Test225_MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test225_MyStack" />
-      <module name="workspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luo.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test7_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test7_Solution" />
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
@@ -403,19 +415,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test7_Solution" />
       <item itemvalue="Application.Test225_MyStack" />
       <item itemvalue="Application.Test8_Solution" />
       <item itemvalue="Application.Test206_Solution" />
       <item itemvalue="Application.Test9_Solution" />
+      <item itemvalue="Application.Test13_Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test13_Solution" />
         <item itemvalue="Application.Test9_Solution" />
         <item itemvalue="Application.Test206_Solution" />
         <item itemvalue="Application.Test8_Solution" />
         <item itemvalue="Application.Test225_MyStack" />
-        <item itemvalue="Application.Test7_Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +458,7 @@
       <workItem from="1541232166544" duration="6734000" />
       <workItem from="1541484023855" duration="1284000" />
       <workItem from="1582957784608" duration="7267000" />
-      <workItem from="1582981692819" duration="22809000" />
+      <workItem from="1582981692819" duration="26244000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode-Two Sum">
       <created>1519664114305</created>
@@ -459,13 +471,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59252000" />
+    <option name="totallyTimeSpent" value="62687000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1792" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1792" height="1120" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22097977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23714286" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -476,8 +488,8 @@
       <window_info id="Job Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32522798" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32218844" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31256086" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32218844" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -739,8 +751,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test9_Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+        <state relative-caret-position="45">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test13_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
