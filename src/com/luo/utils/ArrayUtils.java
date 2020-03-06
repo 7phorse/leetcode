@@ -31,5 +31,24 @@ public class ArrayUtils {
         arr[b] = tmp;
     }
 
+    public static void printArr(int[][] arr) {
+        int x = 0;
+        System.out.print("\t");
+        for (int i = 0; i <= arr.length; i++) {
+            System.out.print(i + "\t");
+        }
+        System.out.print("\n\t" + "-------------------------");
+        System.out.println();
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(i + "  |\t");
+
+            for (int j = 0; j < arr[i].length; j++) {
+                // "\t"是制表符
+                System.out.print(arr[i][j] + "\t");
+            }
+            System.out.println();
+        }
+    }
+
 
 }
