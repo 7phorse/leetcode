@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d10dcf6e-f6eb-46d9-bc02-150378a17a38" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/InterView59_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test15_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test53_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/data/MaxQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test322_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luo/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luo/utils/SortTestHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luo/sort/selectsort/SelectSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luo/sort/selectsort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luo/sort/selectsort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luo/utils/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luo/utils/ArrayUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,15 +69,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="4" />
-          <entry key="java" value="47" />
+          <entry key="gitignore" value="5" />
+          <entry key="java" value="53" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="47" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="53" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -83,12 +85,12 @@
         <counts>
           <entry key="dummy" value="39" />
           <entry key="gitignore" value="19" />
-          <entry key="java" value="8581" />
+          <entry key="java" value="9512" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8581" />
+          <entry key="JAVA" value="9512" />
           <entry key="PLAIN_TEXT" value="58" />
         </counts>
       </usages-collector>
@@ -106,49 +108,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test35_Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/InterView57_Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test53_Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="38" />
-              <folding>
-                <element signature="e#1985#1986#0" expanded="true" />
-                <element signature="e#2040#2041#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/InterView59_Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/data/MaxQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="574">
@@ -161,13 +120,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test15_Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/com/luo/sort/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="69" column="19" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="69" selection-end-column="19" />
+            <state relative-caret-position="621">
+              <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test15_Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/luo/sort/selectsort/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/luo/utils/ArrayUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/luo/utils/SortTestHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test322_Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="62" column="53" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="62" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -177,24 +187,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/luo/utils/ArrayUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="4559" column="25" selection-start-line="4559" selection-start-column="25" selection-end-line="4559" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -244,7 +236,6 @@
         <option value="$PROJECT_DIR$/src/com/luo/sort/selectSort/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/com/luo/sort/selectsort/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/com/luo/model/Student.java" />
-        <option value="$PROJECT_DIR$/src/com/luo/sort/selectsort/SelectionSort.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test14_Soultion.java" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test1103_Solution.java" />
@@ -252,11 +243,15 @@
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test20_Solution.java" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test28_Solution.java" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test35_Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/luo/utils/ArrayUtils.java" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/InterView57_Solution.java" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test53_Solution.java" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/data/MaxQueue.java" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test15_Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test322_Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/luo/sort/selectsort/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/com/luo/utils/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/luo/utils/SortTestHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/luo/sort/InsertSort.java" />
       </list>
     </option>
   </component>
@@ -303,15 +298,7 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="luo" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luo" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -319,6 +306,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="luo" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="selectsort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -336,7 +324,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583565977151" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583637782256" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -360,13 +348,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test53_Solution">
-    <configuration name="InterView57_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.InterView57_Solution" />
+  <component name="RunManager" selected="Application.InsertSort">
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luo.sort.InsertSort" />
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luo.leetcode.*" />
+          <option name="PATTERN" value="com.luo.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,12 +362,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test20_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test20_Solution" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luo.sort.selectsort.SelectSort" />
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luo.leetcode.*" />
+          <option name="PATTERN" value="com.luo.sort.selectsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,12 +375,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test28_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test28_Solution" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luo.sort.selectsort.SelectionSort" />
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luo.leetcode.*" />
+          <option name="PATTERN" value="com.luo.sort.selectsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,8 +388,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test35_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test35_Solution" />
+    <configuration name="Test322_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test322_Solution" />
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
@@ -440,19 +428,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test20_Solution" />
-      <item itemvalue="Application.Test28_Solution" />
-      <item itemvalue="Application.Test35_Solution" />
-      <item itemvalue="Application.InterView57_Solution" />
       <item itemvalue="Application.Test53_Solution" />
+      <item itemvalue="Application.Test322_Solution" />
+      <item itemvalue="Application.SelectSort" />
+      <item itemvalue="Application.InsertSort" />
+      <item itemvalue="Application.SelectionSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.SelectSort" />
+        <item itemvalue="Application.Test322_Solution" />
         <item itemvalue="Application.Test53_Solution" />
-        <item itemvalue="Application.InterView57_Solution" />
-        <item itemvalue="Application.Test35_Solution" />
-        <item itemvalue="Application.Test28_Solution" />
-        <item itemvalue="Application.Test20_Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +473,7 @@
       <workItem from="1582957784608" duration="7267000" />
       <workItem from="1582981692819" duration="31383000" />
       <workItem from="1583202887130" duration="19804000" />
-      <workItem from="1583379306654" duration="20764000" />
+      <workItem from="1583379306654" duration="26657000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode-Two Sum">
       <created>1519664114305</created>
@@ -498,12 +486,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108394000" />
+    <option name="totallyTimeSpent" value="114287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1792" height="1120" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24171428" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24171428" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -514,15 +503,15 @@
       <window_info id="Job Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3100304" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28432328" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30963972" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28432328" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37386018" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37293085" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32911393" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32826748" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32814023" />
       <window_info anchor="bottom" id="Tail" order="11" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -671,16 +660,38 @@
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/luo/leetcode/Test322_Solution.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/luo/leetcode/Test322_Solution.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/luo/sort/InsertSort.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/luo/sort/InsertSort.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/luo/sort/InsertSort.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="strs[j].charAt(index)" language="JAVA" />
-        <watch expression="strs[0].substring(0, j)" language="JAVA" />
-        <watch expression="haystack.charAt(i) == needle.charAt(0)" language="JAVA" />
-        <watch expression="haystack.substring(i, i + needle.length()" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -904,26 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/luo/sort/selectsort/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="71" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/luo/sort/selectsort/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luo/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1006,20 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/luo/utils/ArrayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/InterView57_Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
@@ -1055,6 +1032,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test15_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test322_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="62" column="53" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="62" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luo/utils/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luo/sort/selectsort/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/data/MaxQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
@@ -1065,10 +1083,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test15_Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/com/luo/sort/selectsort/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="69" column="19" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="69" selection-end-column="19" />
+        <state relative-caret-position="480">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luo/utils/SortTestHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luo/sort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

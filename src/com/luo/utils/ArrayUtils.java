@@ -25,8 +25,8 @@ public class ArrayUtils {
         }
     }
 
-    public static void swap(int[] arr, int a, int b) {
-        int tmp = arr[a];
+    public static void swap(Comparable[] arr, int a, int b) {
+        Comparable tmp = arr[a];
         arr[a] = arr[b];
         arr[b] = tmp;
     }
