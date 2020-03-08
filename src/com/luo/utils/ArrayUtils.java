@@ -31,6 +31,12 @@ public class ArrayUtils {
         arr[b] = tmp;
     }
 
+    public static void swap(int[] arr, int a, int b) {
+        int tmp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = tmp;
+    }
+
     public static void printArr(int[][] arr) {
         int x = 0;
         System.out.print("\t");
