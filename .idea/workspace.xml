@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d10dcf6e-f6eb-46d9-bc02-150378a17a38" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test1013.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test1071_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test11_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test543_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/data/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test146_LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test169_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test300_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luo/leetcode/Test5_Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -69,13 +68,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="5" />
-          <entry key="java" value="62" />
+          <entry key="java" value="66" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="62" />
+          <entry key="JAVA" value="66" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="1" />
         </counts>
@@ -84,12 +83,12 @@
         <counts>
           <entry key="dummy" value="51" />
           <entry key="gitignore" value="19" />
-          <entry key="java" value="10749" />
+          <entry key="java" value="11604" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10749" />
+          <entry key="JAVA" value="11604" />
           <entry key="PLAIN_TEXT" value="70" />
         </counts>
       </usages-collector>
@@ -98,50 +97,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/luo/utils/ArrayUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/data/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/luo/sort/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="49" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/luo/sort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="54" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test121_Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-              <folding>
-                <element signature="e#1535#1536#0" expanded="true" />
-                <element signature="e#1601#1602#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -177,11 +136,66 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test1071_Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="393">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test169_Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test300_Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test146_LRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="128" selection-end-column="5" />
+              <folding>
+                <element signature="e#1925#1926#0" expanded="true" />
+                <element signature="e#1960#1961#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test5_Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="90" column="4" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="117" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -220,6 +234,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>origin</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
@@ -229,9 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/luo/leetcode/TwoSum.java" />
-        <option value="$PROJECT_DIR$/src/com/luo/concurrency/NoVisibility.java" />
-        <option value="$PROJECT_DIR$/src/com/luo/leetcode/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/luo/java/SynchronizedDemo.java" />
         <option value="$PROJECT_DIR$/src/com/luo/java/synchronize/SynchronizedDemo.java" />
         <option value="$PROJECT_DIR$/src/com/luo/test/TestMain.java" />
@@ -279,6 +295,10 @@
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test11_Solution.java" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test1013.java" />
         <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test1071_Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test169_Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test300_Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test146_LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/com/luo/leetcode/Test5_Solution.java" />
       </list>
     </option>
   </component>
@@ -327,14 +347,6 @@
               <item name="luo" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luo" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -344,7 +356,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583947744988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584247460109" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -368,20 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test1071_Solution">
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luo.sort.QuickSort" />
-      <module name="workspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luo.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test5_Solution">
     <configuration name="Test1013" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test1013" />
       <module name="workspace" />
@@ -408,8 +407,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test11_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test11_Solution" />
+    <configuration name="Test169_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test169_Solution" />
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
@@ -421,8 +420,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test121_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test121_Solution" />
+    <configuration name="Test300_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test300_Solution" />
+      <module name="workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luo.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.Test5_Solution" />
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
@@ -448,19 +460,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.Test121_Solution" />
-      <item itemvalue="Application.Test11_Solution" />
       <item itemvalue="Application.Test1013" />
       <item itemvalue="Application.Test1071_Solution" />
+      <item itemvalue="Application.Test169_Solution" />
+      <item itemvalue="Application.Test300_Solution" />
+      <item itemvalue="Application.Test5_Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test5_Solution" />
+        <item itemvalue="Application.Test300_Solution" />
+        <item itemvalue="Application.Test169_Solution" />
         <item itemvalue="Application.Test1071_Solution" />
         <item itemvalue="Application.Test1013" />
-        <item itemvalue="Application.Test11_Solution" />
-        <item itemvalue="Application.Test121_Solution" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -493,7 +505,7 @@
       <workItem from="1582957784608" duration="7267000" />
       <workItem from="1582981692819" duration="31383000" />
       <workItem from="1583202887130" duration="19804000" />
-      <workItem from="1583379306654" duration="37989000" />
+      <workItem from="1583379306654" duration="44000000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode-Two Sum">
       <created>1519664114305</created>
@@ -506,13 +518,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125619000" />
+    <option name="totallyTimeSpent" value="131630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1792" height="1120" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24171428" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24171428" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -523,8 +535,8 @@
       <window_info id="Job Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30963972" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28368795" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30963972" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28334957" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -728,11 +740,34 @@
           <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/luo/leetcode/Test1071_Solution.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/luo/leetcode/Test169_Solution.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/luo/leetcode/Test300_Solution.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>map.get(nums[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>haystack.substring(i, i + needle.length()</expression-string>
         <language-id>JAVA</language-id>
@@ -771,37 +806,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test3_Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6273">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test27_Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test26_Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1180,8 +1184,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test1071_Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="393">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test169_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test300_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test146_LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="128" selection-end-column="5" />
+          <folding>
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luo/leetcode/Test5_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="90" column="4" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="117" selection-end-column="5" />
         </state>
       </provider>
     </entry>
