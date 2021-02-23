@@ -11,4 +11,4 @@
 /logs/
 /out
 /workspace.xml
-/.idea/workspace.xml
+.DS_Store
