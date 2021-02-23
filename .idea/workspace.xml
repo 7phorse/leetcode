@@ -420,7 +420,7 @@
   <component name="RunManager" selected="Application.Test674_Solution">
     <configuration name="Test1202_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.leetcode1200_1300.Test1202_Solution" />
-      <module name="workspace" />
+      <module name="phorse-monkey" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.luo.leetcode.leetcode1200_1300.*" />
@@ -433,7 +433,7 @@
     </configuration>
     <configuration name="Test1232_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.leetcode1200_1300.Test1232_Solution" />
-      <module name="workspace" />
+      <module name="phorse-monkey" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.luo.leetcode.leetcode1200_1300.*" />
@@ -446,7 +446,7 @@
     </configuration>
     <configuration name="Test1319_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.leetcode1300_1400.Test1319_Solution" />
-      <module name="workspace" />
+      <module name="phorse-monkey" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.luo.leetcode.leetcode1300_1400.*" />
@@ -459,7 +459,7 @@
     </configuration>
     <configuration name="Test228_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.leetcode200_300.Test228_Solution" />
-      <module name="workspace" />
+      <module name="phorse-monkey" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.luo.leetcode.leetcode200_300.*" />
@@ -472,13 +472,26 @@
     </configuration>
     <configuration name="Test674_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luo.leetcode.leetcode600_700.Test674_Solution" />
-      <module name="workspace" />
+      <module name="phorse-monkey" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.luo.leetcode.leetcode600_700.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
