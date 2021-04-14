@@ -93,65 +93,6 @@ public class TreeUtils {
         }
         System.out.println("----------------------------");
     }
-    public static TreeNode initBinaryTree(Integer[] binaryTree) {
-        if(Objects.isNull(binaryTree)){
-            return null;
-        }
-
-        // 当前深度的节点队列（从左到右）
-        Queue<TreeNode> layerQuery = new LinkedList<>();
-        // 下一深度的节点队列（从左到右）
-        Queue<TreeNode> nextLayerQuery = new LinkedList<>();
-
-        // 根
-        TreeNode root = new TreeNode(binaryTree[0]);
-        layerQuery.add(root);
-
-        for(int i = 1; i < binaryTree.length;){
-            if(layerQuery.isEmpty()){
-                while (!nextLayerQuery.isEmpty()){
-                    // 将下一深度的节点按顺序放入当前节点队列
-                    layerQuery.add(nextLayerQuery.poll());
-                }
-            }
-
-            // 获取当前深度的节点
-            TreeNode current = layerQuery.poll();
-            if(null == current){
-                continue;
-            }
-            // 初始化此节点的子节点
-            // 因为一次初始化2个节点，故此处在用完数据后，自加一
-            insertTreeNode(current, binaryTree, i);
-            i += 2;
-
-            TreeNode left = current.left;
-            TreeNode right = current.right;
-            if(null != left){
-                nextLayerQuery.add(left);
-            }
-            if(null != right){
-                nextLayerQuery.add(right);
-            }
-        }
-
-        return root;
-    }
-
-    private static void insertTreeNode(TreeNode root, Integer[] binaryTree, int arrayIndex) {
-        if(null == root.left){
-            Integer leftValue = binaryTree[arrayIndex++];
-            if(null != leftValue){
-                root.left = new TreeNode(leftValue);
-            }
-        }
-        if(null == root.right && arrayIndex < binaryTree.length){
-            Integer rightValue = binaryTree[arrayIndex];
-            if(null != rightValue){
-                root.right = new TreeNode(rightValue);
-            }
-        }
-    }
 
     public static TreeNode createTree(Integer[] array) {
         int floor = 0, count = 0;
